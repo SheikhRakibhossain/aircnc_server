@@ -45,6 +45,12 @@ run().catch(console.dir)
 app.get('/', (req, res) => {
   res.send(`<h2>AirCNC Server is running...</h2>`)
 })
+app.get('/', (req, res) => {
+  res.send(`<h2>AirCNC Server is running...</h2>`)
+})
+app.get('/', (req, res) => {
+  res.send(`<h2>AirCNC Server is running...</h2>`)
+})
 
 app.listen(port, () => {
   console.log(`AirCNC is running on port ${port}`)
